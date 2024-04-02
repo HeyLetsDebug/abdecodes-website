@@ -1,62 +1,225 @@
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rakkas&display=swap" rel="stylesheet">
+<title>ABDecodes - Portfolio</title>
+  <style>
+    /* Basic styles */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      font-family: "Montserrat", sans-serif;
+    }
+    
+    
+    /* Header and navigation styling */
+    header {
+      background-color: #fff;
+      color: #000;
+      padding: 1rem 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      box-shadow: 0px -1px 8px #0000008a;
+    }
+    
+    .brandingMain
+    {
+      font-family: "Rakkas", serif;
+      letter-spacing: 0.3rem;
+    }
+    
+    nav {
+      margin-top: 10px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #000;
+      margin: 0 15px;
+      transition: all 0.3s ease;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+    letter-spacing: 1px;
+    }
+    
+    nav a:hover {
+      color: #ffa500;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    /* Main section styling */
+    .main-content {
+      padding: 20px;
+    }
 
-.bgimg {
-  background-image: url('https://images.unsplash.com/photo-1682686578842-00ba49b0a71a');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+    .sectionTitles{
+      font-family: "Montserrat", sans-serif;
+      margin-bottom: 1rem;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+    }
+    
+    /* Portfolio section styling */
+    .portfolio {
+      background-color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    
+    .portfolio-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    
+    .portfolio-item {
+      text-decoration: none;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+    justify-content: flex-start;
+      overflow: hidden;
+      position: relative;
+      width: calc(30% - 20px);
+      margin: 10px; /* Adjust margin as needed */
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+    .portfolio-item img {
+      width: 100%;
+      /* height: 300px; */
+      object-fit: contain;
+    }
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+    .portfolio-item span {
+      width: -webkit-fill-available;
+    background-color: #4d97fe36;
+    color: black;
+    padding: 1rem;
+    margin: 0;
+    font-weight: 600;
+    }
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+    .portfolio-item:hover {
+      transform: translateY(-5px);
+    }
+    
+    /* About section styling */
+    .about {
+      background-color: #f9f9f9;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    
+    /* Contact section styling */
+    .contact {
+    background-color: #4d97fe36;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    
+    .form-container {
+      max-width: 750px;
+      margin: 0 auto;
+    }
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+  </style>
+</head>
 <body>
+  <header>
+    <h1 class="brandingMain">ABDecodes</h1>
+    <nav>
+      <!-- <a href="#about">About</a> -->
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <div class="main-content">
+    
+    <!-- <section class="about" id="about">
+      <h2 class="sectionTitles">About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nulla aliquam, fermentum velit id, rutrum tellus. Integer non dapibus eros. Quisque pharetra, justo sit amet maximus gravida, justo urna varius lectus, at vestibulum turpis eros non sem. Cras nec ligula felis. Morbi pulvinar leo id odio euismod, eget tincidunt purus facilisis. Proin id justo ipsum.</p>
+    </section> -->
 
-<div class="bgimg">
-  <div class="topleft">
-    <p>Logo</p>
+    <section class="portfolio" id="portfolio">
+      <h2 class="sectionTitles">My Portfolio</h2>
+      <div class="portfolio-container">
+        <a href="https://artechnoinnovations.com/" target="_blank" class="portfolio-item">
+          <img src="images/artechno.png" alt="artechno innovations website first screen image">
+          <span>Artechno Innovation</span>
+        </a>
+        <a href="https://kashyapsocialfoundation.org/" target="_blank" class="portfolio-item">
+          <img src="images/kashyap.png" alt="kashyap social foundation website first screen image">
+          <span>Kashyap Social Foundation</span>
+        </a>
+        <a href="https://aabc.ventures/" target="_blank" class="portfolio-item">
+          <img src="images/aabc.png" alt="aabc website first screen image">
+          <span>Asian Australian Business Council</span>
+        </a>
+        <a href="https://task.org.in/" class="portfolio-item">
+          <img src="images/task.png" alt="task website first screen image">
+          <span>TASK</span>
+        </a>
+        <a href="https://eliteremovalists.com.au/" class="portfolio-item">
+          <img src="images/elite-removals.png" alt="elite website first screen image">
+          <span>Elite Removals Sydney</span>
+        </a>
+        <a href="https://teefoundation.in/" class="portfolio-item">
+          <img src="images/teefoundation.png" alt="teefoundation elite website first screen image">
+          <span>Tee Foundation</span>
+        </a>
+      </div>
+    </section>
+    
+    <section class="contact" id="contact">
+      <h2 class="sectionTitles">Contact Me</h2>
+      <div class="form-container">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpzDVLQ2WQ_hpL3ofZFb2XwRNFTAJm3lIjak7DpBNSy_LkmQ/viewform?embedded=true" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Please log in to view the form...</iframe>
+      </div>
+    </section>
   </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>35 days left</p>
-  </div>
-  <div class="bottomleft">
-    <p>Some text</p>
-  </div>
-</div>
+  
+  <script>
+    // Smooth scrolling with dynamic offset
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const offset = window.innerWidth > 768 ? 90 : 0; // Adjust this value as needed
+            const target = document.querySelector(this.getAttribute('href'));
+            const targetOffset = target.offsetTop - offset;
 
+            window.scrollTo({
+                top: targetOffset,
+                behavior: 'smooth'
+            });
+        });
+    });
+  </script>
 </body>
 </html>
