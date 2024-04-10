@@ -7,156 +7,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rakkas&display=swap" rel="stylesheet">
 <title>ABDecodes - Portfolio</title>
-  <style>
-    /* Basic styles */
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-      font-family: "Montserrat", sans-serif;
-    }
-    
-    
-    /* Header and navigation styling */
-    header {
-      background-color: #fff;
-      color: #000;
-      padding: 1rem 0;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 999;
-      box-shadow: 0px -1px 8px #0000008a;
-    }
-    
-    .brandingMain
-    {
-      font-family: "Rakkas", serif;
-      letter-spacing: 0.3rem;
-    }
-    
-    nav {
-      margin-top: 10px;
-    }
-    
-    nav a {
-      text-decoration: none;
-      color: #000;
-      margin: 0 15px;
-      transition: all 0.3s ease;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 400;
-    letter-spacing: 1px;
-    }
-    
-    nav a:hover {
-      color: #ffa500;
-    }
-    
-    h1 {
-      margin: 0;
-    }
-    
-    /* Main section styling */
-    .main-content {
-      padding: 20px;
-    }
-
-    .sectionTitles{
-      font-family: "Montserrat", sans-serif;
-      margin-bottom: 1rem;
-      letter-spacing: 0.2rem;
-      text-transform: uppercase;
-    }
-    
-    /* Portfolio section styling */
-    .portfolio {
-      background-color: #fff;
-      padding: 2rem 0;
-      text-align: center;
-    }
-    
-    .portfolio-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-    }
-    
-    .portfolio-item {
-      text-decoration: none;
-      color: #000;
-      display: flex;
-      flex-direction: column;
-    justify-content: flex-start;
-      overflow: hidden;
-      position: relative;
-      width: calc(30% - 20px);
-      margin: 10px; /* Adjust margin as needed */
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease-in-out;
-    }
-
-    .portfolio-item img {
-      width: 100%;
-      /* height: 300px; */
-      object-fit: contain;
-    }
-
-    .portfolio-item span {
-      width: -webkit-fill-available;
-    background-color: #4d97fe36;
-    color: black;
-    padding: 1rem;
-    margin: 0;
-    font-weight: 600;
-    }
-
-    .portfolio-item:hover {
-      transform: translateY(-5px);
-    }
-    
-    /* About section styling */
-    .about {
-      background-color: #f9f9f9;
-      padding: 2rem 0;
-      text-align: center;
-    }
-    
-    .about p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 1rem;
-    }
-    
-    /* Contact section styling */
-    .contact {
-    background-color: #4d97fe36;
-      padding: 2rem 0;
-      text-align: center;
-    }
-    
-    .form-container {
-      max-width: 750px;
-      margin: 0 auto;
-    }
-
-    iframe {
-      width: 100%;
-      height: 500px;
-      border: none;
-    }
-  </style>
+<link rel="stylesheet" href="css/required.css">
+<link rel="stylesheet" href="css/home.css">
 </head>
 <body>
   <header>
-    <h1 class="brandingMain">ABDecodes</h1>
+    <h1 class="brandingMain" id="logoMain">ABDecodes</h1>
     <nav>
       <!-- <a href="#about">About</a> -->
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
+      <a href="/blog.html">Blogs</a>
     </nav>
   </header>
   
@@ -205,21 +66,6 @@
     </section>
   </div>
   
-  <script>
-    // Smooth scrolling with dynamic offset
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const offset = window.innerWidth > 768 ? 90 : 0; // Adjust this value as needed
-            const target = document.querySelector(this.getAttribute('href'));
-            const targetOffset = target.offsetTop - offset;
-
-            window.scrollTo({
-                top: targetOffset,
-                behavior: 'smooth'
-            });
-        });
-    });
-  </script>
+<script src="scripts/required.js"></script>
 </body>
 </html>

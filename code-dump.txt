@@ -1,0 +1,79 @@
+      <!-- SCRIPT FOR DYNAMICALLY PULLING BLOGS FROM JSON FILE
+      <script>
+          const blogList = document.getElementById('blog-list');
+          
+          function getBlogPosts() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'blogs/posts.json'); // Replace with your actual data source
+      
+            xhr.onload = function() {
+              if (xhr.status === 200) {
+                const data = JSON.parse(xhr.responseText);
+                
+                data.forEach(post => {
+                  const blogItem = document.createElement('a');
+                  blogItem.classList.add('blog-item');
+                  blogItem.href = `/blog-details.html?id=${post.id}`; // Change this to link to details page
+                  
+                  blogItem.innerHTML = `
+                  <img src="${post.featured_image}" alt="image for ${post.title}"/>
+                    <h3>${post.title}</h3>
+                    <p>${post.excerpt}</p>
+                  `;
+                  
+                  blogList.appendChild(blogItem);
+                });
+              } else {
+                console.error('Failed to load blog posts');
+              }
+            };
+            
+            xhr.send();
+          }
+          
+          getBlogPosts();
+        </script> -->
+
+<---- SCRIPT FOR RENDERING THE BLOG DETAILS PAGE 
+    <script>
+        const blogDetails = document.getElementById('blog-details');
+        const urlParams = new URLSearchParams(window.location.search);
+        const postId = urlParams.get('id');
+    
+        function getBlogPostDetails() {
+          const xhr = new XMLHttpRequest();
+          xhr.open('GET', 'blogs/posts.json');
+    
+          xhr.onload = function() {
+            if (xhr.status === 200) {
+              const data = JSON.parse(xhr.responseText);
+              let foundPost = null;
+              console.log(data)
+              data.forEach(post => {
+                if (post.id == postId) {
+                  foundPost = post;
+                  return; 
+                }
+              });
+              
+              if (foundPost) {
+                blogDetails.innerHTML = `
+                  <h1>${foundPost.title}</h1>
+                  ${foundPost.featured_image ? `<img src="${foundPost.featured_image}" alt="${foundPost.title}">` : ''}
+                  <p>${foundPost.content}</p>
+                  <p>Published: ${foundPost.date}</p>
+                `;
+              } else {
+                blogDetails.innerHTML = '<p>Error: Post not found.</p>';
+              }
+            } else {
+              console.error('Failed to load blog post details');
+              blogDetails.innerHTML = '<p>Error: Could not load blog post details.</p>';
+            }
+          };
+          
+          xhr.send();
+        }
+        
+        getBlogPostDetails();
+      </script> --->

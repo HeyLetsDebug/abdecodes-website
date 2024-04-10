@@ -1,0 +1,53 @@
+/* Basic styles */
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #f2f2f2; */
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  /* Header and navigation styling */
+  header {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px -1px 8px #0000008a;
+  }
+  
+  .brandingMain
+  {
+    font-family: "Rakkas", serif;
+    letter-spacing: 0.3rem;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  letter-spacing: 1px;
+  }
+  
+  nav a:hover {
+    color: #ffa500;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Main section styling */
+  .main-content {
+    font-family: "Montserrat", sans-serif;
+  }

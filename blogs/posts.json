@@ -1,0 +1,33 @@
+[
+  {
+    "id": "01",
+    "title": "Understanding Props vs Evars in Adobe Analytics",
+    "excerpt": "Grasping the difference between Props and Evars is crucial for effective data collection in Adobe Analytics. This post clarifies their functionalities and helps you choose the right one for your needs.",
+    "content": "<p>When working with Adobe Analytics, understanding Props and Evars is essential for collecting and analyzing website data. While both capture information, they serve distinct purposes.</p> <p>**Props (Traffic Variables):** Props are temporary data points associated with a specific tracking call. They provide basic information about the user's visit, such as page name, referrer, and timestamp. Props don't persist beyond the tracking call and aren't used in reports or analysis.</p> <p>**Evars (Event Variables):** Evars are more granular data points associated with user interactions or events. They can capture details like product purchases, form submissions, or video plays. Evars have a configurable lifespan and are used for analysis and reporting.</p> <p>**Choosing the Right Variable:** Use Props for basic traffic data that doesn't require long-term analysis. Use Evars for capturing user actions and interactions that contribute to your website goals.</p>",
+    "date": "2024-04-09",
+    "featured_image": "https://via.placeholder.com/300?text=Props+vs+Evars"
+  },
+  {
+    "id": "02",
+    "title": "Creating Powerful Segments with Calculated Segments in Adobe Analytics",
+    "excerpt": "Calculated Segments allow you to define complex user segments based on specific criteria. This post explores the benefits of Calculated Segments and guides you through creating them.",
+    "content": "<p>Adobe Analytics offers Calculated Segments, a powerful tool for creating user groups based on specific criteria. This allows you to analyze website behavior for targeted audiences.</p> <p>**Benefits of Calculated Segments:**  <ul> <li>Target specific user groups for in-depth analysis.</li> <li>Combine data points from Props, Evars, and other metrics for precise segmentation.</li> <li>Create dynamic segments that update automatically based on user behavior.</li> </ul> <p>**Creating Calculated Segments:**  <ol> <li>Go to the Segmentation workspace in Adobe Analytics.</li> <li>Click 'New Segment' and choose 'Calculated Segment'.</li> <li>Define your segment criteria using conditions and operators on various data points.</li> <li>Save your segment for future use.</li> </ol> <p>Calculated Segments empower you to gain deeper insights into specific user behavior, leading to better website optimization and marketing strategies.</p>",
+    "date": "2024-04-09",
+    "featured_image": "https://via.placeholder.com/300?text=Calculated+Segments"
+  },
+  {
+    "id": "03",
+    "title": "Classifications: Organizing Your Data in Adobe Analytics",
+    "excerpt": "Classifications provide a way to categorize your Adobe Analytics data for easier analysis and reporting. This post explains how to leverage classifications for efficient data management.",
+    "content": "<p>Classifications in Adobe Analytics are a valuable tool for organizing and categorizing your website data. They allow you to add additional metadata to existing data points, facilitating more insightful analysis.</p> <p>**What are Classifications?** Classifications are essentially custom labels or categories that you can assign to Props, Evars, and other data elements. This adds another layer of organization to your data.</p> <p>**Benefits of Classifications:**  <ul> <li>Simplify report creation by grouping related data points.</li> <li>Gain deeper understanding of user behavior by analyzing data within categories.</li> <li>Improve data consistency and standardization.</li> </ul> <p>**Using Classifications:**  <ol> <li>Go to the Report Suite Management workspace in Adobe Analytics.</li> <li>Navigate to 'Classifications' and create new classifications or edit existing ones.</li> <li>Assign classifications to relevant Props, Evars, and other data elements.</li> </ol>  <p>By effectively using classifications, you can transform your raw data into a well-organized structure for superior data analysis and reporting.</p>",
+    "date": "2024-04-09",
+    "featured_image": "https://via.placeholder.com/300?text=Classifications"
+  },  {
+    "id": "04",
+    "title": "Data Elements: Building Blocks of Adobe Analytics vs Data Elements in Adobe Launch",
+    "excerpt": "Data elements play a crucial role in both Adobe Analytics and Adobe Launch. This post clarifies the concept of data elements in each platform and their distinct functionalities.",
+    "content": "<p>Data elements are fundamental components in both Adobe Analytics and Adobe Launch, but they serve different purposes. Let's explore these differences.</p> <p>**Data Elements in Adobe Analytics:**  <ul> <li>Pre-defined or custom variables that store website data.</li> <li>Used for collecting and sending data to Adobe Analytics reports.</li> <li>Configured within the Adobe Analytics interface.</li> </ul> <p>**Data Elements in Adobe Launch:**  <ul> <li>Containers for various types of data, including website data, external APIs, and user attributes.</li> <li>Used for managing and manipulating data before sending it to various destinations, including Adobe Analytics.</li> <li>Configured within the Adobe Launch interface and can be dynamically assembled for different use cases.</li> </ul> <p>**In essence:**  <ul> <li>Adobe Analytics data elements focus on collecting and sending data for reporting.</li> <li>Adobe Launch data elements provide a broader data management layer for various destinations.</li> </ul>",
+    "date": "2024-04-09",
+    "featured_image": "https://via.placeholder.com/300?text=Data+Elements"
+  }
+]

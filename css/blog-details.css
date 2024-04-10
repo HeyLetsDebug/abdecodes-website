@@ -1,0 +1,18 @@
+.blog-details {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  .blog-details h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .blog-details img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-details p {
+    line-height: 1.5;
+  }
