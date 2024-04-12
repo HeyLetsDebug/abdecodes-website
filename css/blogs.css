@@ -49,3 +49,9 @@ flex-direction: row;
   bottom: 0;
   right: 1rem;
 }
+
+@media only screen and (max-width: 780px) {
+  .blog-item {
+    width: 100%;
+  }
+}
