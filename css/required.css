@@ -12,17 +12,22 @@ body {
     background-color: #fff;
     color: #000;
     padding: 1rem 0;
-    text-align: center;
     position: sticky;
     top: 0;
     z-index: 999;
     box-shadow: 0px -1px 8px #0000008a;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
   }
   
   .brandingMain
   {
     font-family: "Rakkas", serif;
     letter-spacing: 0.3rem;
+    cursor: pointer;
+    width: fit-content;
   }
   
   nav {
@@ -50,4 +55,11 @@ body {
   /* Main section styling */
   .main-content {
     font-family: "Montserrat", sans-serif;
+  }
+  footer
+  {
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
   }

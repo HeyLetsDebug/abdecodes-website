@@ -1,18 +1,84 @@
+
+.blog-details h1 {
+  margin-bottom: 1rem;
+}
+
+.blog-details img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.blog-details p {
+  line-height: 1.5;
+}
+
+.TitleBanner{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+.titleDivider
+{
+width: 100%;
+  height: 2px;
+  border-width: 0;
+  color: #f1f1f1;
+  background-color: #f1f1f1;
+  margin-top: 2rem;
+}
+
+.blogTitle{
+text-transform: uppercase;
+font-size: 2rem;
+font-family: serif;
+line-height: 1.4;
+letter-spacing: 0.1rem;
+}
+
+.blogWrapper
+{
+display: flex;
+flex-wrap: wrap; 
+width: 90%;
+margin: 2rem auto;
+gap: 3rem;
+}
 .blog-details {
-    margin: 2rem auto;
-    padding: 2rem;
-  }
+flex: 2.2;
+}
+.published-date
+{
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+/************************************************** Side Bar CSS **************************************************/
+
+.blog-sidebar{
+  flex: 1; 
+  padding: 2rem;
+  background-color: #f5f5f5;
   
-  .blog-details h1 {
-    margin-bottom: 1rem;
-  }
-  
-  .blog-details img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-  
-  .blog-details p {
-    line-height: 1.5;
-  }
+}
+.sidebar-links{
+  text-transform: capitalize;
+  margin-bottom: 0.9rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  transition-duration: 0.5s;
+}
+
+.sidebar-links a{
+  text-decoration: none;
+  color: #1565C0;
+}
+.sidebar-links a:hover{
+  color: #000000;
+  font-weight: 600;
+}

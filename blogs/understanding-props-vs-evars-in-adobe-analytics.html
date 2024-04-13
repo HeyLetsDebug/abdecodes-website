@@ -12,44 +12,43 @@
     <title>Understanding Props vs Evars in Adobe Analytics</title>
     <link rel="stylesheet" href="/css/required.css">
     <link rel="stylesheet" href="/css/blog-details.css">
-    <script src="scripts/trackingcode.js"></script>
+    <script src="../scripts/trackingcode.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1 class="brandingMain" id="logoMain">ABDecodes</h1>
-        <nav>
-            <!-- <a href="#about">About</a> -->
-            <a href="/index.html#portfolio">Portfolio</a>
-            <a href="/index.html#contact">Contact</a>
-            <a href="/blog.html">Blogs</a>
-        </nav>
-    </header>
 
+    <header id="header-container"></header>
     <div class="main-content">
-        <div class="blog-details" id="blog-details">
-            <h1>Understanding Props vs Evars in Adobe Analytics</h1>
-            <!-- <img src="https://via.placeholder.com/300?text=Props+vs+Evars"
-                alt="Understanding Props vs Evars in Adobe Analytics">
-            <p></p> -->
-            <p>When working with Adobe Analytics, understanding Props and Evars is essential for collecting and
-                analyzing website data. While both capture information, they serve distinct purposes.</p>
-            <p>**Props (Traffic Variables):** Props are temporary data points associated with a specific tracking call.
-                They provide basic information about the user's visit, such as page name, referrer, and timestamp. Props
-                don't persist beyond the tracking call and aren't used in reports or analysis.</p>
-            <p>**Evars (Event Variables):** Evars are more granular data points associated with user interactions or
-                events. They can capture details like product purchases, form submissions, or video plays. Evars have a
-                configurable lifespan and are used for analysis and reporting.</p>
-            <p>**Choosing the Right Variable:** Use Props for basic traffic data that doesn't require long-term
-                analysis. Use Evars for capturing user actions and interactions that contribute to your website goals.
-            </p>
-            <p></p>
-            <p>Published: 2024-04-09</p>
-        </div>
+        <section class="TitleBanner">        
+            <h1 class="blogTitle">Understanding Props vs Evars in Adobe Analytics</h1>
+            
+            <p class="published-date">Published: 2024-04-09</p>
+            <hr class="titleDivider">
+        </section>
+        <section class="blogWrapper">
+            <div class="blog-details">
+                <!-- <img src="https://via.placeholder.com/300?text=Props+vs+Evars"
+                    alt="Understanding Props vs Evars in Adobe Analytics">
+                <p></p> -->
+                <p>When working with Adobe Analytics, understanding Props and Evars is essential for collecting and
+                    analyzing website data. While both capture information, they serve distinct purposes.</p>
+                <p>**Props (Traffic Variables):** Props are temporary data points associated with a specific tracking call.
+                    They provide basic information about the user's visit, such as page name, referrer, and timestamp. Props
+                    don't persist beyond the tracking call and aren't used in reports or analysis.</p>
+                <p>**Evars (Event Variables):** Evars are more granular data points associated with user interactions or
+                    events. They can capture details like product purchases, form submissions, or video plays. Evars have a
+                    configurable lifespan and are used for analysis and reporting.</p>
+                <p>**Choosing the Right Variable:** Use Props for basic traffic data that doesn't require long-term
+                    analysis. Use Evars for capturing user actions and interactions that contribute to your website goals.
+                </p>
+                <p></p>
+            </div>
+            <aside class="blog-sidebar">
+            </aside>
+        </section>
     </div>
-    <footer>
-        ©2017-2024 ABDecodes. All rights reserved.
-      </footer>
+    <footer id="footer-container">
+    <script src="../scripts/required.js"></script>
 </body>
 
 </html>

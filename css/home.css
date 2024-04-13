@@ -24,11 +24,11 @@
     color: #000;
     display: flex;
     flex-direction: column;
-  justify-content: flex-start;
+    justify-content: space-between;
     overflow: hidden;
     position: relative;
     width: calc(30% - 20px);
-    margin: 10px; /* Adjust margin as needed */
+    margin: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -85,15 +85,8 @@
     border: none;
   }
   
-  footer
-  {
-    padding: 1rem;
-    text-align: center;
-    font-size: 0.8rem;
-    letter-spacing: 0.1rem;
-  }
 
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 765px) {
     .portfolio-item {
       width: 100%;
     }
