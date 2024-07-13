@@ -17,11 +17,11 @@ HERO BANNER
   }
   .hero.home-banner
   {
-    background-image: url('/images/hero-banner.webp'); /* Replace with your image path */
+    background-image: url('/images/hero-banners/hero-banner.webp'); /* Replace with your image path */
   }
   .hero.blog-banner
   {
-    background-image: url('/images/blog-banner-2.webp'); /* Replace with your image path */
+    background-image: url('/images/hero-banners/blog-banner-2.webp'); /* Replace with your image path */
   }
   
   .hero-overlay {
