@@ -55,3 +55,32 @@ function includeHTML(filePath, container) {
       window.location.href = "/";
     }
   });
+
+
+// Header Scroll CSS & Animation
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    document.getElementById("header-container").classList.add("sticky");
+  } else {
+    document.getElementById("header-container").classList.remove("sticky");
+  }
+}
+
+
+document.body.addEventListener('click', function(event) {
+  var clickedElement = event.target;
+  // if (clickedElement.classList.contains('your-class-name')) { 
+  //   var nav = document.getElementById('navigation');
+  //   nav.classList.toggle('show');
+  // }
+
+  if (clickedElement.id == 'menu-toggle') {
+    var nav = document.getElementById('navigation');
+  nav.classList.toggle('show');
+  }
+
+  
+});
