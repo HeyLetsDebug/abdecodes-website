@@ -71,13 +71,13 @@ function scrollFunction() {
 
 
 document.body.addEventListener('click', function(event) {
-  var clickedElement = event.target;
+  var e = event.target;
   // if (clickedElement.classList.contains('your-class-name')) { 
   //   var nav = document.getElementById('navigation');
   //   nav.classList.toggle('show');
   // }
 
-  if (clickedElement.id == 'menu-toggle') {
+  if (e.id == 'menu-toggle' || e.classList.contains("menu-line")) {
     var nav = document.getElementById('navigation');
   nav.classList.toggle('show');
   }
