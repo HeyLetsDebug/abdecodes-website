@@ -4,6 +4,8 @@
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   color: white;
+  margin-top: 0;
+  color: #d9a300;
 }
 
 /* Portfolio section styling */
@@ -56,9 +58,11 @@
 
 /* About section styling */
 .about {
-  background-color: #f9f9f9;
-  padding: 2rem 0;
-  text-align: center;
+  background-color: black;
+  padding: 4rem 0;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .about p {
@@ -85,9 +89,84 @@ iframe {
   border: none;
 }
 
+
+.imageMine
+{
+  width: 90%;
+  border-radius: 0.35rem;
+
+}
+.aboutImageWrapper
+{
+  text-align: right;
+}
+.aboutContentWrapper
+{
+padding-right: 1rem;
+}
+.pWrapper{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 90%;
+}
+.ctaWrapper
+{
+  display: flex;
+}
+
+
+.normal-button
+{
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 0.35rem;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.normal-button:first-child
+{
+  margin-right: 2rem;
+}
+.normal-button:hover
+{
+
+}
+
 @media only screen and (max-width: 765px) {
   .portfolio-item {
     width: 100%;
   }
+  .aboutImageWrapper
+  {
+    text-align: center;
+  }
+  .aboutContentWrapper
+  {
+  padding-right: 0;
+  width: 100%;
+  }
+  .pWrapper {
+    flex-direction: column;
+}
+.imageMine
+{
+  width: -webkit-fill-available;
+}
+.ctaWrapper {
+  flex-direction: column;
+  width: 100%;
+  align-items: stretch;
 }
 
+.normal-button:first-child
+{
+  margin-right: 0;
+  margin-bottom: 2rem;
+}
+}
