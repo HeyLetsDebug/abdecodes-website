@@ -35,10 +35,14 @@
   font-size: 1rem;
 }
 
-.blog-item p:not(.readMore) {
+.blog-item p:not(.readMore):not(.publish-date) {
   padding-bottom: 1rem;
   letter-spacing: 0.7px;
-  font-size: 14px;
+  font-size: 1rem;
+}
+p.publish-date {
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 .blog-item .readMore
 {
