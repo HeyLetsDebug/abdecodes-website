@@ -18,6 +18,10 @@
   {
     background-image: url('/images/hero-banners/hero-banner.webp'); 
   }
+  .hero.feedback-banner
+  {
+    background-image: url('/images/hero-banners/feedback-banner.webp'); 
+  }
   
   .hero-overlay {
     position: absolute; 
