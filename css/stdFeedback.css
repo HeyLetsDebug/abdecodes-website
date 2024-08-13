@@ -5,6 +5,19 @@
     height: fit-content;
 }
 
+@media screen and (max-width:750px) {
+    .main-content{
+        height: 750px;
+    }
+    .iframeContainer
+    {
+        height: -webkit-fill-available;
+    }
+    .hero {
+        min-height: 240px;
+    }
+}
+
 .iframeContainer {
     position: relative;
     width: 100%;
