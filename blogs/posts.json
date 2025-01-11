@@ -1,66 +1,66 @@
 [
-  {
-      "linktoblog": "/blogs/a-beginners-guide-to-seo.html",
-      "imgsrc": "/images/blog-details/seo-jungle-2.jpg",
-      "imgalttag": "image for seo guide",
-      "titleofblog": "Conquer the Search Engine Jungle: A Beginner's Guide to SEO",
-      "description": "This guide breaks down the essentials of Search Engine Optimization, from keyword research to on-page optimization. Learn how to make your website climb the search engine rankings and attract more organic traffic.",
-      "publishDate": "12-04-2024"
-  },
-  {
-      "linktoblog": "/blogs/the-importance-of-Website-accessibility.html",
-      "imgsrc": "/images/blog-details/door-to-accessiblity-1.jpg",
-      "imgalttag": "image for Importance of Website Accessibility",
-      "titleofblog": "Opening Doors to All: The Importance of Website Accessibility",
-      "description": "This guide breaks down the essentials of Search Engine Optimization, from keyword research to on-page optimization. Learn how to make your website climb the search engine rankings and attract more organic traffic.",
-      "publishDate": "28-04-2024"
-  },
-  {
-      "linktoblog": "/blogs/basic-accessiblity-check.html",
-      "imgsrc": "/images/blog-details/basic-accessiblity-check.jpg",
-      "imgalttag": "image for Basic Accessibility Checks for Web Developers",
-      "titleofblog": "Ensuring Everyone Can Access Your Website: Basic Accessibility Checks for Web Developers",
-      "description": "In today's digital world, it's crucial that everyone can access the information and functionality of your website. This means making sure your website is accessible to people with disabilities.",
-      "publishDate": "05-05-2024"
-  },
-  {
-      "linktoblog": "/blogs/understanding-props-vs-evars-in-adobe-analytics.html",
-      "imgsrc": "/images/blog-details/evar-vs-prop.jpg",
-      "imgalttag": "image for Props vs Evars in Adobe Analytics",
-      "titleofblog": "Understanding Props vs Evars in Adobe Analytics",
-      "description": "Grasping the difference between Props and Evars is crucial for effective data collection in Adobe Analytics. This post clarifies their functionalities and helps you choose the right one for your needs.",
-      "publishDate": "15-05-2024"
-  },
-  {
-      "linktoblog": "/blogs/creating-powerful-segments-with-calculated-segments-in-adobe-analytics.html",
-      "imgsrc": "/images/blog-details/segmenting-data-analytics-2.jpg",
-      "imgalttag": "image for Segments in Adobe Analytics",
-      "titleofblog": "Creating Powerful Segments in Adobe Analytics",
-      "description": "Segments allow you to define complex user segments based on specific criteria. This post explores the benefits of Segments and guides you through creating them.",
-      "publishDate": "23-05-2024"
-  },
-  {
-      "linktoblog": "/blogs/understanding-classifications-in-adobe-analytics.html",
-      "imgsrc": "/images/blog-details/classification-in-adobe-analytics.jpg",
-      "imgalttag": "image for Classifications: Organizing Your Data in Adobe Analytics",
-      "titleofblog": "Classifications: Organizing Your Data in Adobe Analytics",
-      "description": "Classifications provide a way to categorize your Adobe Analytics data for easier analysis and reporting. This post explains how to leverage classifications for efficient data management.",
-      "publishDate": "01-06-2024"
-  },
-  {
-      "linktoblog": "/blogs/data-elements-of-adobe-analytics-vs-data-elements-in-adobe-launch.html",
-      "imgsrc": "/images/blog-details/data-elements.jpg",
-      "imgalttag": "image for Data Elements: Building Blocks of Adobe Analytics vs Data Elements in Adobe Launch",
-      "titleofblog": "Data Elements: Building Blocks of Adobe Analytics vs Data Elements in Adobe Launch",
-      "description": "Data elements play a crucial role in both Adobe Analytics and Adobe Launch. This post clarifies the concept of data elements in each platform and their distinct functionalities.",
-      "publishDate": "10-06-2024"
-  },
-  {
-      "linktoblog": "/blogs/power-of-ab-testing-in-digital-marketing.html",
-      "imgsrc": "/images/blog-details/a-b-testing.jpg",
-      "imgalttag": "image for Data Elements: Building Blocks of Adobe Analytics vs Data Elements in Adobe Launch",
-      "titleofblog": "The Power of A/B Testing: Driving Digital Marketing Success",
-      "description": "Discover how A/B testing can transform your digital marketing efforts. From optimizing conversion rates to refining user experience, learn why this powerful tool is indispensable in today's competitive landscape.",
-      "publishDate": "20-06-2024"
-  }
-]
+    {
+        "linktoblog": "/abdecodes-website/blogs/a-beginners-guide-to-seo.html",
+        "imgsrc": "/abdecodes-website/images/blog-details/seo-jungle-2.jpg",
+        "imgalttag": "image for seo guide",
+        "titleofblog": "Conquer the Search Engine Jungle: A Beginner's Guide to SEO",
+        "description": "This guide breaks down the essentials of Search Engine Optimization, from keyword research to on-page optimization. Learn how to make your website climb the search engine rankings and attract more organic traffic.",
+        "publishDate": "12-04-2024"
+    },
+    {
+        "linktoblog": "/abdecodes-website/blogs/the-importance-of-Website-accessibility.html",
+        "imgsrc": "/abdecodes-website/images/blog-details/door-to-accessiblity-1.jpg",
+        "imgalttag": "image for Importance of Website Accessibility",
+        "titleofblog": "Opening Doors to All: The Importance of Website Accessibility",
+        "description": "This guide breaks down the essentials of Search Engine Optimization, from keyword research to on-page optimization. Learn how to make your website climb the search engine rankings and attract more organic traffic.",
+        "publishDate": "28-04-2024"
+    },
+    {
+        "linktoblog": "/abdecodes-website/blogs/basic-accessiblity-check.html",
+        "imgsrc": "/abdecodes-website/images/blog-details/basic-accessiblity-check.jpg",
+        "imgalttag": "image for Basic Accessibility Checks for Web Developers",
+        "titleofblog": "Ensuring Everyone Can Access Your Website: Basic Accessibility Checks for Web Developers",
+        "description": "In today's digital world, it's crucial that everyone can access the information and functionality of your website. This means making sure your website is accessible to people with disabilities.",
+        "publishDate": "05-05-2024"
+    },
+    {
+        "linktoblog": "/abdecodes-website/blogs/understanding-props-vs-evars-in-adobe-analytics.html",
+        "imgsrc": "/abdecodes-website/images/blog-details/evar-vs-prop.jpg",
+        "imgalttag": "image for Props vs Evars in Adobe Analytics",
+        "titleofblog": "Understanding Props vs Evars in Adobe Analytics",
+        "description": "Grasping the difference between Props and Evars is crucial for effective data collection in Adobe Analytics. This post clarifies their functionalities and helps you choose the right one for your needs.",
+        "publishDate": "15-05-2024"
+    },
+    {
+        "linktoblog": "/abdecodes-website/blogs/creating-powerful-segments-with-calculated-segments-in-adobe-analytics.html",
+        "imgsrc": "/abdecodes-website/images/blog-details/segmenting-data-analytics-2.jpg",
+        "imgalttag": "image for Segments in Adobe Analytics",
+        "titleofblog": "Creating Powerful Segments in Adobe Analytics",
+        "description": "Segments allow you to define complex user segments based on specific criteria. This post explores the benefits of Segments and guides you through creating them.",
+        "publishDate": "23-05-2024"
+    },
+    {
+        "linktoblog": "/abdecodes-website/blogs/understanding-classifications-in-adobe-analytics.html",
+        "imgsrc": "/abdecodes-website/images/blog-details/classification-in-adobe-analytics.jpg",
+        "imgalttag": "image for Classifications: Organizing Your Data in Adobe Analytics",
+        "titleofblog": "Classifications: Organizing Your Data in Adobe Analytics",
+        "description": "Classifications provide a way to categorize your Adobe Analytics data for easier analysis and reporting. This post explains how to leverage classifications for efficient data management.",
+        "publishDate": "01-06-2024"
+    },
+    {
+        "linktoblog": "/abdecodes-website/blogs/data-elements-of-adobe-analytics-vs-data-elements-in-adobe-launch.html",
+        "imgsrc": "/abdecodes-website/images/blog-details/data-elements.jpg",
+        "imgalttag": "image for Data Elements: Building Blocks of Adobe Analytics vs Data Elements in Adobe Launch",
+        "titleofblog": "Data Elements: Building Blocks of Adobe Analytics vs Data Elements in Adobe Launch",
+        "description": "Data elements play a crucial role in both Adobe Analytics and Adobe Launch. This post clarifies the concept of data elements in each platform and their distinct functionalities.",
+        "publishDate": "10-06-2024"
+    },
+    {
+        "linktoblog": "/abdecodes-website/blogs/power-of-ab-testing-in-digital-marketing.html",
+        "imgsrc": "/abdecodes-website/images/blog-details/a-b-testing.jpg",
+        "imgalttag": "image for Data Elements: Building Blocks of Adobe Analytics vs Data Elements in Adobe Launch",
+        "titleofblog": "The Power of A/B Testing: Driving Digital Marketing Success",
+        "description": "Discover how A/B testing can transform your digital marketing efforts. From optimizing conversion rates to refining user experience, learn why this powerful tool is indispensable in today's competitive landscape.",
+        "publishDate": "20-06-2024"
+    }
+  ]
