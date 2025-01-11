@@ -18,13 +18,13 @@ var profilePhoto = document.querySelector(".aboutImageWrapper");
 var aboutTitle = document.getElementById("aboutTitle");
 
 if (document.location.pathname === '/') {
-  includeHTML('includes/header.html', headerContainer)
-  includeHTML('includes/footer.html', footerContainer)
+  includeHTML('abdecodes-website/includes/header.html', headerContainer)
+  includeHTML('abdecodes-website/includes/footer.html', footerContainer)
 } else {
-  includeHTML('../includes/header.html', headerContainer)
-  includeHTML('../includes/footer.html', footerContainer)
+  includeHTML('../abdecodes-website/includes/header.html', headerContainer)
+  includeHTML('../abdecodes-website/includes/footer.html', footerContainer)
   if (document.location.pathname.includes('/blogs/')) {
-    includeHTML('../includes/sidebar.html', blogSidebar)
+    includeHTML('../abdecodes-website/includes/sidebar.html', blogSidebar)
   }
 }
 
